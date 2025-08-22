@@ -13,7 +13,5 @@
 
 ## QUIZ MODEL PREVIEW
 
+<img src="https://github.com/user-attachments/assets/789dadef-1445-41fe-8461-423f8ab04a5f" alt="quiz-video" width=500 height=600>
 
-<video>
-<source src="https://github.com/user-attachments/assets/789dadef-1445-41fe-8461-423f8ab04a5f" alt="quiz-video">
-</video>

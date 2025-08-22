@@ -1,0 +1,29 @@
+{% include "base.html" %}
+{% block body %}
+    <a class="btn btn-rnd btn-prime" href="{{url_for('home')}}">Home</a>
+
+    <div class="box">
+        <!--Double curly braces with just the variable passed in python code, will show the value on page using Jinja-->
+        <div class="question">
+            <div>
+                <p>{{question}}</p>
+            </div>
+            <div>
+                <form method="POST">
+                    <!--The .hidden_tag() is necessary for displaying some of the form elements correctly-->
+                    {{form.hidden_tag()}}
+                    <br>
+                    <!--The subfield grabs the choices from the form to render in the webpage-->
+                    <!--use a for loop to loop through the choices in the answer -->
+                    {% for subfield in form.answers %}
+                        <!--rendering the form this way provides the radio button and the label or answer to the question-->
+                        {{ subfield }} {{ subfield.label }}<br>
+                    {%endfor%}<br>
+                    <!--displays the forms submit button-->
+
+                {{form.submit(class_="btn btn-rnd btn-prime")}}
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

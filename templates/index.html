@@ -1,0 +1,8 @@
+{% include "base.html" %}
+{% block body %}
+    <div class="m-idx">
+    <h1>Choose Your Quiz:</h1>
+    <button class="btn btn-rnd btn-prime"><a href='{{ url_for("quiz_page") }}'>Quiz</a></button>
+    <button class="btn btn-rnd btn-danger"><a href='{{ url_for("reset_quiz") }}'>Reset</a></button>
+    </div>
+{% endblock %}

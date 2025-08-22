@@ -1,0 +1,92 @@
+[
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "The OSI Model divides tasks into seven layers.",
+        "correct_answer": "True",
+        "answers": ["False", "True"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "What is layer 7 of the OSI Called?",
+        "correct_answer": "Application",
+        "answers": ["Application", "Presentation", "Session", "Transport"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "What is layer 3 of the OSI called?",
+        "correct_answer": "Network",
+        "answers": ["Presentation", "Data Link", "Physcial", "Network"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "What layer of OSI deals with converting its into signals to transmit over a medium (e.g., cable, wireless, etc.)?",
+        "correct_answer": "Physical",
+        "answers": ["Application", "Data Link", "Network", "Physical"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "What layer of the OSI deals with error detection, correction, and handling frames for transmission?",
+        "correct_answer": "Data Link",
+        "answers": ["Data Link", "Physical", "Network", "Transport"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "The __________ of the OSI Model is responsible for logical addressing and routing of data packets and includes the IP protocol.",
+        "correct_answer": "Network",
+        "answers": ["Application", "Data Link", "Transport", "Network"]
+    },
+    {
+       "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "The __________ of the OSI Model establishes, manages, and terminates connections between applications.",
+        "correct_answer": "Session",
+        "answers": ["Session", "Application", "Presentation", "Data Link"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "The Presentation layer handles data formatting, encryption, and compression for ensure data usability and correct format for the application layer.  ",
+        "correct_answer": "True",
+        "answers": ["False", "True"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "General",
+        "question": "RAM stands for Random Access Memory.",
+        "correct_answer": "True",
+        "answers": ["False", "True"]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "Information Technology",
+        "sub-category": "OSI Model",
+        "question": "What layer of the OSI Model, does it provide an interface for software to access network services, handle transfers (e.g., files, email, web browsing) and deals with protocols like HTTP, FTP, SMTP?",
+        "correct_answer": "Application",
+        "answers": ["Data Link", "Network", "Transport", "Application"]
+    }
+]

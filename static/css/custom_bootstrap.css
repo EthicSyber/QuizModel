@@ -1,0 +1,75 @@
+
+body {
+    background-image: url(../images/foxandsun.png);
+    background-size: cover;
+    opacity: 0.9;
+    color: hsl(0, 0%, 100%);
+}
+
+.m-idx {
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.box {
+    padding-top: 180px;
+    padding-left: 15px;
+    padding-bottom: 80px;
+    padding-right: 15px;
+}
+
+/*Question Class Styling*/
+.question {
+    margin: auto;
+    color: #fff;
+    background-color: #000000bd;
+    padding: 25px 25px 150px 25px;
+    width: 60%;
+    box-shadow: 5px 10px 50px #2c2c2c;
+}
+
+
+
+/*Button Styling*/
+.btn {
+    color: white;  /*colors the font*/
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none; /*ensure no underlines etc... default stylings for text*/
+    text-align: center; /* aligns the text in the button to the center*/
+}
+    .btn-rnd {
+        border: none; /* set no border lines*/
+        border-radius: 5px; /* curves the corner edges of the border*/
+        padding: 3px 16px; /* provides padding around the text / or inner area of the button*/
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer; /* styles the pointer*/
+    }
+
+    .btn-prime {
+        background-color: #1729a1; /* Like a violet blue */
+    }
+        .btn-prime:hover {
+            background-color: #3d52d9;
+        }
+
+    .btn-danger {
+        background-color: #e70800; /* Red */
+    }
+        .btn-danger:hover {
+            background-color: #ff3a3a;
+        }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    width: 5em;
+}
+
+
+

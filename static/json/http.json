@@ -1,0 +1,301 @@
+[
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "General",
+        "question": "This class of status code indicates an interim response for communicating connection status or request prior to completing the requested action and sending the final response.",
+        "correct_answer": "1xx Informational response",
+        "answers": [
+            "1xx Informational response",
+            "2xx Successful response", 
+            "3xx Redirection messages", 
+            "4xx Client error responses",
+            "5xx Server error responses"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "General",
+        "question": "This class of status code indicates that the client's request was successfully recieved, understood, and accepted.",
+        "correct_answer": "2xx Successful response",
+        "answers": [
+            "1xx Informational response",
+            "2xx Successful response", 
+            "3xx Redirection messages", 
+            "4xx Client error responses",
+            "5xx Server error responses"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "General",
+        "question": "This class of status code indicates that further action needs to be taken by the user agent in order to fullfill the request.",
+        "correct_answer": "3xx Redirection messages",
+        "answers": [
+            "1xx Informational response",
+            "2xx Successful response", 
+            "3xx Redirection messages", 
+            "4xx Client error responses",
+            "5xx Server error responses"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "General",
+        "question": "This class of status code indicates that a client seems to have erred.",
+        "correct_answer": "4xx Client error responses",
+        "answers": [
+            "1xx Informational response",
+            "2xx Successful response", 
+            "3xx Redirection messages", 
+            "4xx Client error responses",
+            "5xx Server error responses"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "General",
+        "question": "This class of status code indicates that the server is aware it has erred or is incapable of performing the requested method",
+        "correct_answer": "5xx Server error responses",
+        "answers": [
+            "1xx Informational response",
+            "2xx Successful response", 
+            "3xx Redirection messages", 
+            "4xx Client error responses",
+            "5xx Server error responses"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Informational",
+        "question": "This type of status code indicates that the initial part of a request has been recieved and has not yet been rejected by the server. The server sends the final response after the request has been fully recieved and acted on.",
+        "correct_answer": "100",
+        "answers": [
+            "201 Created",
+            "101 Switching Protocols", 
+            "200 OK", 
+            "100 Continue"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "This status code indicates that the request has succeeded.",
+        "correct_answer": "200 OK",
+        "answers": [
+            "200 OK",
+            "202 Accepted", 
+            "203 Non-Authoritative Information", 
+            "205 Reset Content"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "This status code indicates that the request has been fullfilled and has resulted in one or more new resources being created.",
+        "correct_answer": "201 Created",
+        "answers": [
+            "201 Created",
+            "202 Accepted", 
+            "203 Non-Authoritative Information", 
+            "205 Reset Content"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "This status code indicates that a request has been accepted for processing, but processing has not been completed.",
+        "correct_answer": "202 Accepted",
+        "answers": [
+            "201 Created",
+            "100 Continue",
+            "202 Accepted", 
+            "204 No Content"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "This status code indicates the request was successful but the enclosed content has been modified from that of the origin server's 200 (OK) response by a transforming proxy. This allows the proxy to notify the recipients when a transformation has been applied.",
+        "correct_answer": "203 Non-Authoritative Information",
+        "answers": [
+            "201 Created",
+            "204 No Content", 
+            "203 Non-Authoritative Information", 
+            "205 Reset Content"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "This status code indicates that the server has fullfilled the request and desires that the uer agent reset the 'document view', which cause the request to be sent to its original state as recieved from the origin server.",
+        "correct_answer": "205 Reset Content",
+        "answers": [
+            "205 Reset Content",
+            "202 Accepted", 
+            "204 No Content", 
+            "206 Partial Content"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "The indication of a server successfully fullfiling the request with no additional content to send in the response content is what type of status code?",
+        "correct_answer": "204 No Content",
+        "answers": [
+            "204 No Content",
+            "206 Partial Content",
+            "201 Created", 
+            "202 Accepted"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Successful",
+        "question": "An indication the server is successful at fullfilling a range request for the target resource by transferring one or more part of the selected representation.",
+        "correct_answer": "206 Partial Content",
+        "answers": [
+            "200 OK",
+            "206 Partial Content", 
+            "202 Accepted", 
+            "201 Created"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Redirection",
+        "question": "A status code that has more than one representation, each with its own more specific identifier, and information about the alternatives is eing provided so that the user agent can select the perferred representation by redirecting its request to one or more of those identifiers. ",
+        "correct_answer": "300 Multiple Choices",
+        "answers": [
+            "300 Multiple Choices",
+            "302 Not Found", 
+            "301 Moved Permanently", 
+            "303 See Other"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Redirection",
+        "question": "A status code that indicates a targets resources resides temporarily under a different URI. ",
+        "correct_answer": "302 Not Found",
+        "answers": [
+            "300 Multiple Choices",
+            "302 Not Found", 
+            "301 Moved Permanently", 
+            "303 See Other"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Redirection",
+        "question": "The server redirects the user agent to a different resource, intended to provide an indirect response to the original request.",
+        "correct_answer": "303 See Other",
+        "answers": [
+            "300 Multiple Choices",
+            "305 Use Proxy", 
+            "303 See Other", 
+            "306 (Unused)"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Redirection",
+        "question": "This type of status code indicates that a conditional GET or HEAD request has been recieved and would have resulted in a 200 (OK) response but the condition evaluated to false.",
+        "correct_answer": "304 Not Modified",
+        "answers": [
+            "305 Use Proxy",
+            "304 Not Modified", 
+            "300 Multiple Choices", 
+            "306 (Unused)"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Redirection",
+        "question": "A target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. Which status code indicates this?",
+        "correct_answer": "307 Temporary Redirect",
+        "answers": [
+            "305 Use Proxy",
+            "303 See Other", 
+            "307 Temporary Redirect", 
+            "300 Multiple Choices"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Redirection",
+        "question": "The target resource has been assigned a new permanent URI and future references to this resource should use an enclosed URI.",
+        "correct_answer": "308 Permanent Redirect",
+        "answers": [
+            "308 Permanent Redirect",
+            "303 See Other", 
+            "307 Temporary Redirect", 
+            "300 Multiple Choices"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Client Error",
+        "question": "The server cannot or will not process the request due to something that is percieved as an error (e.g., malformed request) on the client side.",
+        "correct_answer": "400 Bad Request",
+        "answers": [
+            "403 Forbidden",
+            "400 Bad Request", 
+            "402 Payment Required", 
+            "401 Unauthorized"
+        ]
+    },
+    {
+        "type": "multiple choice",
+        "difficulty": "easy",
+        "category": "http_response_codes",
+        "sub-category": "Client Error",
+        "question": "The request has not been applied because it lacks valid authentication credentials for the target resource",
+        "correct_answer": "401 Unathorized",
+        "answers": [
+            "400 Bad Request",
+            "401 Unauthorized", 
+            "403 Forbidden", 
+            "400 Bad Request"
+        ]
+    }
+]

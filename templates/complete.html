@@ -1,0 +1,5 @@
+{% include "base.html" %}
+{% block body %}
+    <h1>Final Score: {{ score }}</h1>
+    <button class="btn btn-rnd btn-prime"><a href='{{ url_for("home") }}'>Home</a></button>
+{% endblock%}

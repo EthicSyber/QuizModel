@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-f = "Quiz/static/json/infotech.json"
+f = "./static/json/infotech.json"
 data = get_json_data(json_file=f)
 SECRET = os.environ['SECRET_KEY']
 
